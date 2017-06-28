@@ -1,0 +1,27 @@
+{
+  "name": "webpack-angular-example",
+  "version": "1.0.0",
+  "main": "lib/webpack-angular-example-main.js",
+  "license": "MIT",
+  "scripts": {
+    "prebuild": "rimraf lib",
+    "build": "webpack"
+  },
+  "devDependencies": {
+    "babel-core": "^6.25.0",
+    "babel-eslint": "^7.2.3",
+    "babel-loader": "^7.1.0",
+    "css-loader": "^0.28.4",
+    "eslint": "^4.1.1",
+    "eslint-loader": "^1.8.0",
+    "eslint-plugin-react": "^7.1.0",
+    "html-loader": "^0.4.5",
+    "rimraf": "^2.6.1",
+    "style-loader": "^0.18.2",
+    "webpack": "^3.0.0"
+  },
+  "peerDependencies": {},
+  "dependencies": {
+    "angular": "~1.4"
+  }
+}
